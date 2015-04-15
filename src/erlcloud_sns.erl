@@ -31,8 +31,7 @@
          subscribe/3, subscribe/4
          ]).
 -export([parse_event/1, get_event_type/1, parse_event_message/1,
-         get_notification_attribute/2]).
--export([new/2, new/3, configure/2, configure/3]).
+         get_notification_attribute/2, new/2, new/3, configure/2, configure/3]).
 
 -include("erlcloud.hrl").
 -include("erlcloud_aws.hrl").
